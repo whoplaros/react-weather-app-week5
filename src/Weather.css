@@ -24,7 +24,7 @@
 .Weather li {
 	font-size: 16px;
 	font-weight: 100;
-	line-height: 19px;
+	line-height: 22px;
 	list-style: none;
 }
 .Weather canvas {
@@ -45,4 +45,7 @@
 	position: relative;
 	top: -34px;
 	margin-left: 0px;
+}
+.WeatherInfo {
+	margin-bottom: 20px;
 }
