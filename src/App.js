@@ -1,11 +1,13 @@
 import "./App.css";
+import Weather from "./Weather.js";
 
 function App() {
 	return (
 		<div className="App">
 			<div className="container">
 				<h1>Weather App</h1>
-				<button className="btn btn-primary">Hello</button>
+				<Weather />
+
 				<footer>
 					This project was coded by{" "}
 					<a href="https://wesleyhoplarosportfolio.netlify.app" target="_blank">
