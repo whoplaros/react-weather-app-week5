@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import WeatherIcon from "./WeatherIcon.js";
+import React, { useState, useEffect } from "react";
+
 import "./WeatherForecast.css";
 import axios from "axios";
 import WeatherForecastDay from "./WeatherForecastDay.js";
@@ -7,6 +7,11 @@ import WeatherForecastDay from "./WeatherForecastDay.js";
 export default function WeatherForecast(props) {
 	let [loaded, setLoaded] = useState(false);
 	let [forecast, setForecast] = useState(null);
+
+	useEffect(() => {
+		setLoaded(false);
+	}, [props.coordinates]);
+
 	function handleResponse(response) {
 		setForecast(response.data.daily);
 		setLoaded(true);
@@ -24,6 +29,8 @@ export default function WeatherForecast(props) {
 									<WeatherForecastDay data={dailyForecast} />
 								</div>
 							);
+						} else {
+							return null;
 						}
 					})}
 				</div>
