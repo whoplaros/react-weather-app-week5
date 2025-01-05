@@ -5,7 +5,11 @@ function App() {
 		<div className="App">
 			<h1>Weather App</h1>
 			<footer>
-				This project was coded by Wesley Hoplaros and is open-sourced on{" "}
+				This project was coded by{" "}
+				<a href="https://wesleyhoplarosportfolio.netlify.app" target="_blank">
+					Wesley Hoplaros
+				</a>{" "}
+				and is open-sourced on{" "}
 				<a
 					href="https://github.com/whoplaros/react-weather-app-week5"
 					target="_blank"
