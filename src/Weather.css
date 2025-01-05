@@ -1,9 +1,12 @@
 .Weather {
 	border: 1px solid #dadde1;
 	padding: 16px;
-
 	border-radius: 4ps;
 	font-family: arial, sans-serif;
+	color: rgb(135, 135, 135);
+}
+.Weather a {
+	text-decoration: none;
 	color: rgb(135, 135, 135);
 }
 
