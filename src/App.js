@@ -18,8 +18,16 @@ function App() {
 						href="https://github.com/whoplaros/react-weather-app-week5"
 						target="_blank"
 					>
-						Github.
+						Github
+					</a>{" "}
+					and hosted on{" "}
+					<a
+						href="https://asyouwish-weather-react-app5.netlify.app"
+						target="_blank"
+					>
+						Netlify
 					</a>
+					.
 				</footer>
 			</div>
 		</div>
