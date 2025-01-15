@@ -5,6 +5,9 @@ function App() {
 	return (
 		<div className="App">
 			<div className="container">
+			<video autoplay muted loop>
+  <source src="./public/sky-2023.mov" type="video/mp4">
+</video>
 				<Weather defaultCity="Nicosia" />
 
 				<footer>
